@@ -1,14 +1,14 @@
-function generateMarkdown( UserResposes, UserInfo){
+function generateMarkdown( userResponses, userInfo){
 
   let draftMarkdown = `
   
-  # ${userresponses.title}
+  # ${userResponses.title}
 
   ##Repo
-  (https://github.com/${userResponses.username}/${UserResposes.repo}) 
+  (https://github.com/${userResponses.username}/${userResponses.repo}) 
 
   ##Title 
-  ${UserResposes.title}
+  ${userResponses.title}
 
   ##Description
   ${userResponses.description}
@@ -19,7 +19,7 @@ function generateMarkdown( UserResposes, UserInfo){
   ##About the Project 
 
   #Differenciation 
-   ${UserResposes.Different}
+   ${userResponses.Different}
 
   #Learnings 
     ${userResponses.Learn}
@@ -31,22 +31,22 @@ function generateMarkdown( UserResposes, UserInfo){
     ${userResponses.userstory}
 
   #Motivation 
-    ${userResposes.motivation}
+    ${userResponses.motivation}
 
   #Problem
-    ${UserResposes.problemSolving}
+    ${userResponses.problemSolving}
 
   ##Installation
-    ${UserResposes.install}
+    ${userResponses.install}
 
   ##License
-    ${userResposes.license}
+    ${userResponses.license}
 
   ##Collaborators
     ${userResponses.Collaborators}
 
   ##For More information 
-  Please contact ${userReponses.username}
+  Please contact ${userResponses.username}
   `
   return draftMarkdown;
 
