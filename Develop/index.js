@@ -140,8 +140,8 @@ inquirer.prompt([
 
    // Responding to answers the user inputs 
      console.log(`Your Responses: ${answers}`);
-     console.log("Thank you for your responses.... Give us a moment while we fetch our information..."); 
-     console.log("I'm generating your README now...")
+     console.log("Thank you for your responses.... "); 
+     console.log("Yay, you generated your Readme file!...")
    } 
 ).catch((error)=> {
     if (error.isTtyError){

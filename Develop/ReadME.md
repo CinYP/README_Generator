@@ -1,18 +1,18 @@
 
   
-  ## Readme Generator
+  ## README Generator
 
   ## Repo
 
-  (https://github.com/CinYP/README_Generator ) 
+  (https://github.com/CinYP/README_Generator) 
 
   ## Title 
 
-  Readme Generator
+  README Generator
 
   ## Description
 
-  An Application that creates a README file for a developer. 
+  README_Generator
 
   ## Instructions 
 
