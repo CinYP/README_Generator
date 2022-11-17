@@ -1,52 +1,67 @@
-function generateMarkdown( userResponses, userInfo){
+function generateMarkdown( answers){
+//console.log('testing one two three...');
 
+  
   let draftMarkdown = `
   
-  # ${userResponses.title}
+  ## ${answers.title}
 
-  ##Repo
-  (https://github.com/${userResponses.username}/${userResponses.repo}) 
+  ## Repo
 
-  ##Title 
-  ${userResponses.title}
+  (https://github.com/${answers.username}/${answers.repo}) 
 
-  ##Description
-  ${userResponses.description}
+  ## Title 
 
-  ##Instructions 
-    ${userResponses.Instruction}
+  ${answers.title}
 
-  ##About the Project 
+  ## Description
 
-  #Differenciation 
-   ${userResponses.Different}
+  ${answers.description}
 
-  #Learnings 
-    ${userResponses.Learn}
+  ## Instructions 
 
-  #The Why behind the project 
-    ${userResponses.thewhy}
+    ${answers.instruction}
 
-  #User-Story
-    ${userResponses.userstory}
+  ## About the Project 
 
-  #Motivation 
-    ${userResponses.motivation}
+  # Differenciation 
 
-  #Problem
-    ${userResponses.problemSolving}
+   ${answers.different}
 
-  ##Installation
-    ${userResponses.install}
+  # Learnings 
 
-  ##License
-    ${userResponses.license}
+    ${answers.learn}
 
-  ##Collaborators
-    ${userResponses.Collaborators}
+  # The Why behind the project 
 
-  ##For More information 
-  Please contact ${userResponses.username}
+    ${answers.thewhy}
+
+  # User-Story
+
+    ${answers.userstory}
+
+  # Motivation 
+
+    ${answers.motivation}
+
+  # Problem
+
+    ${answers.problemSolving}
+
+  ## Installation
+
+    ${answers.install}
+
+  ## License
+
+    ${answers.license}
+
+  ## Collaborators
+    ${answers.collaborators}
+
+  ## For More information 
+  Please contact ${answers.username} or email ${answers.email}.
+
   `
   return draftMarkdown;
 
