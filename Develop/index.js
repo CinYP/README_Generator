@@ -1,5 +1,4 @@
 // TODO: Include packages needed for this application
-
 //external modules 
 const inquirer = require('inquirer'); 
 const fs = require('fs');
@@ -18,7 +17,6 @@ function writeToFile (filename, data) {
 
 });
 }
-
 
 inquirer.prompt([
 // TODO: Create an array of questions for user input
