@@ -102,7 +102,7 @@ inquirer.prompt([
         type: 'input',
         message: 'Provide instructions and examples for use',
         name: 'instruction',
-        default: "Begin the application by typing node <filename> in your terminal. Follow the prompt, provide thoughtful questions to create your README file. Once complete, all answers are located in README.md."
+        default: "Begin the application by typing node index.js in your terminal. Follow the prompt, provide thoughtful questions to create your README file. Once complete, all answers are located in a README.md file"
     },
     {
         type: 'input',
