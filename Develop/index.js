@@ -129,14 +129,15 @@ inquirer.prompt([
         choices: ['None','GNU', 'AGPLV3', 'MIT Lisence', 'Boost Software License', 'Other'], 
 
      }]).then((answers) => {
-    // debugging: console.log('Answers:', answers);
+    // debugging: 
+    console.log('Answers:', answers);
 
     //Generating markdown and passing in answers to markdown file
     const markdown = generateMarkdown(answers);
    // debugging: console.log(markdown);
 
    //Genetating markdown file 
-    writeToFile('ReadME.md', markdown);
+    writeToFile('ReadMETemplate.md', markdown);
 
    // Responding to answers the user inputs 
      console.log(`Your Responses: ${answers}`);

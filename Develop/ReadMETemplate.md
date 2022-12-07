@@ -12,11 +12,11 @@
 
   ## Description
 
-  README_Generator
+  ReadMe Generator Application.
 
   ## Instructions 
 
-    Begin the application by typing node <filename> in your terminal. Follow the prompt, provide thoughtful questions to create your README file. Once complete, all answers are located in README.md.
+    Begin the application by typing node index.js in your terminal. Follow the prompt, provide thoughtful questions to create your README file. Once complete, all answers are located in a README.md file
 
   ## About the Project 
 
@@ -50,7 +50,7 @@
 
   ## License
 
-    None
+    Other
 
   ## Collaborators
     Collaborators include: Cinthia Pruitt, Georgia Institute of Technology Staff (TA and Instructor), Google.com, CodeAcademmy, and various articles which helped in the understanding of Node,js.
